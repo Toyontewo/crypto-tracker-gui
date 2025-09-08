@@ -3,7 +3,6 @@
 A simple **Python Tkinter application** that displays the **top gainers and losers in the cryptocurrency market**.  
 This mini app provides a clean GUI to view percentage changes and allows exporting the results to a `.txt` file for offline use.  
 
----
 
 ## Features
 - Display **Top Gainers** and **Top Losers** (sorted from highest to lowest)
@@ -12,12 +11,10 @@ This mini app provides a clean GUI to view percentage changes and allows exporti
 - Data is displayed with **rounded percentages**
 - Responsive layout
 
----
 
 ## 📷 Screenshot
 ![App screenshot](https://github.com/Toyontewo/crypto-tracker-gui/blob/main/cp_img.png)
 
----
 
 ## ⚙️ Installation
 1. Clone the repo:
