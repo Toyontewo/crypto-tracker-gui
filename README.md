@@ -12,14 +12,14 @@ This mini app provides a clean GUI to view percentage changes and allows exporti
 - Responsive layout
 
 
-## 📷 Screenshot
+## Screenshot
 ![App screenshot](https://github.com/Toyontewo/crypto-tracker-gui/blob/main/cp_img.png)
 
 
-## ⚙️ Installation
+## Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/crypto-tracker-gui.git
+   git clone https://github.com/toyontewo/crypto-tracker-gui.git
    cd crypto-tracker-gui
    python main.py
 
