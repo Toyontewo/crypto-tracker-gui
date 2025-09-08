@@ -15,7 +15,7 @@ This mini app provides a clean GUI to view percentage changes and allows exporti
 ---
 
 ## 📷 Screenshot
-
+![App screenshot](https://github.com/Toyontewo/crypto-tracker-gui/blob/main/cp_img.png)
 
 ---
 
