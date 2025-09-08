@@ -3,8 +3,6 @@
 A simple **Python Tkinter application** that displays the **top gainers and losers in the cryptocurrency market**.  
 The app provides a clean GUI, allows exporting results to a `.txt` file, and even lets you **send results directly to your email**.  
 
----
-
 ## Features
 - Display **Top Gainers** and **Top Losers** (sorted from highest to lowest).
 - Clean **Tkinter GUI** with customizable themes.
