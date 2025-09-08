@@ -12,7 +12,7 @@ The app provides a clean GUI, allows exporting results to a `.txt` file, and eve
 
 
 ## 📷 Screenshot
-(Add a screenshot of your app here)
+![App Screenshot](https://github.com/Toyontewo/crypto-tracker-gui/blob/main/cp_img.png)
 
 
 ## ⚙️ Installation
