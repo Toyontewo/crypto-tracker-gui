@@ -92,15 +92,18 @@ for coin, pct in losers_sorted:
 
 def send_mail():
     to_email = simpledialog.askstring("Input", "Enter your email")
-    with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
-        connection.starttls()
-        connection.login(user=my_email, password=password)
-
-        connection.sendmail(from_addr=my_email,
-                            to_addrs=to_email,
-                            msg=f"Subject:Crypto Market Data\n\n{gain_content}"
-                            )
-    messagebox.showinfo(message="Email Sent")
+    try:
+        with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
+            connection.starttls()
+            connection.login(user=my_email, password=password)
+    
+            connection.sendmail(from_addr=my_email,
+                                to_addrs=to_email,
+                                msg=f"Subject:Crypto Market Data\n\n{gain_content}"
+                                )
+        messagebox.showinfo(message="Email Sent")
+    except Exception as e:
+        messagebox.showinfo(message=f"Error sending email: {e}")
 
 
 window = Tk()
